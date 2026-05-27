@@ -1,9 +1,18 @@
 void main (){
- var num = new int [5];
+ var nome = new int [5];
  int aux;
 
- for (int cont=0;cont<num.lenght;cont++)
-    num [cont] = Integer.parseInt(IO.readln("Digite NUM["));
+ for (int cont=0;cont<nome.length;cont++)
+    nome [cont] = Integer.parseInt(IO.readln("Digite NUM[" + cont + "]: "));
+
+ IO.println("Estes foram os números digitados: ");
+ for (int cont=0;cont<nome.length;cont++)
+    IO.println("Nome [" + (cont) + "]: " + nome[cont]);
+
+ // ROTINA DE ORDENAÇÃO
+
+ for (int i=0; i<nome.length)
+
 
 
 
